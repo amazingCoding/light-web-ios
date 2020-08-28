@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LightWebCore_Tests' do
+  pod 'LightWebCore', :path => '../'
+  
+  
+end

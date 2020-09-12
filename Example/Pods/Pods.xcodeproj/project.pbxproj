@@ -1,0 +1,1190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069F11200F021D264DEF92F3AB2109F1 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0DE416D6344E5CFACA931A7E86BFEE /* ioapi_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0842B61C414D0DEED594AE89EBCDA062 /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A393737B3122CD01B13D51A418414F2 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E19F58C46D6A53A938E31768A7A9924 /* UIImage+LightWebCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0371F554C5F2C3B3E3FF29E858A5AB /* UIImage+LightWebCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F84F050FEA50788E2B0C8E5DDB8E41C /* LightWebAppFileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A443132D900DEA7F6B4231ABFE801 /* LightWebAppFileItem.m */; };
+		1497EA79E6FF617D771906F4DF3AF768 /* LightWebAppController.h in Headers */ = {isa = PBXBuildFile; fileRef = E9B1DC8961FB8F83325CC7CCF780D13F /* LightWebAppController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		157241514A6438FC7FBF01316D01DE78 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 7465D02678E184188E869CAD7629E5F0 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		18FC26C535D5CB61211C4D84C6730AB6 /* LightWebWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DA533432B7C592FABB0748C2158839 /* LightWebWKWebView.m */; };
+		194DC2217E91792C5D0CD16792D07D88 /* LightWebCapsuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DC3801FD00B70184AD3ACE9DDA2877 /* LightWebCapsuleView.m */; };
+		1D5EB1C808B379A344A4C05724492730 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = DA4B6A435287518CDC7AAF02E8570A1B /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2333D8FCD696E80C3E8A3FD1843DAFAE /* LightWebCoreController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D39671030D1251B9F0D640B6C4AE33 /* LightWebCoreController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		233EBF2C045EC457AD2A6B8A4A46469D /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B0CDBA29C9DA8E088BA231FC39BD2F /* SSZipCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2689AB25EF22FEC6135EE5C73382171A /* LightWebLoadHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1D72BFC4D337B4CC70B011C2CB108D /* LightWebLoadHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26C7F3B1F61827DE7A3BD11496B4A017 /* LightWebPanInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 154D5EE0F8AEC3C70CBB60C8A4D20ECA /* LightWebPanInteractiveTransition.m */; };
+		2B12084B807339FD023D23BB3A8FDFAD /* LightWebJavaScriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B43FFA151418F57A1762725D85615F72 /* LightWebJavaScriptManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CC3D549EA3D804840A04A01D42C7357 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 73C465A8C93AA86946265417DAAB0616 /* ioapi_mem.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		300593C3206D472DB55BB407B7075642 /* lightWebCore.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBA1A89E6E110D3446AC531B8C5B185 /* lightWebCore.xcassets */; };
+		341B31149E9BB63DC42341B3B916E02D /* LightWebMainView.h in Headers */ = {isa = PBXBuildFile; fileRef = D23B1E40F221AE220C0B79E91B7E4680 /* LightWebMainView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36DCC70593898179AC29B403F266369A /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = B2AA4A90C388F88E9441C9B62AEE9EA8 /* aes_ni.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		390F5A27657938706E18C8D29A1D28E8 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = A8E868671A5D71395BB9611B58E55E87 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3D00F75CF648FEC18ACBD9FE439CE9E9 /* vconsole.js in Resources */ = {isa = PBXBuildFile; fileRef = ADB160CCEA9AC56667E3309306CDDDDA /* vconsole.js */; };
+		3F13EDDAE3A8C9D685FB38CE283DE00C /* LightWebCapsuleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A8EB2A58C52EBD57C4DDB31F3BA503CC /* LightWebCapsuleView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4893D64D020308AA243DBF8DC39CF116 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = F282A6B8DB59CFA053CFBAC0E2A9675C /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4EDB8DE23A054458105559452C7655B6 /* LightWebAppFileItem.h in Headers */ = {isa = PBXBuildFile; fileRef = A752C7189B8EBD4E89F1EFF1082B7F3C /* LightWebAppFileItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		505D34EED7A13F57EF975B67A37D48E8 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B79520FE58AA0E7C7EBA42C53A5D2BF /* SSZipArchive-dummy.m */; };
+		5486D6B33F1AA702B8DBFA01729F4FED /* NSString+LightWebCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BE74ADC21863DA5797210FB0C1FDB757 /* NSString+LightWebCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		559B83924F27F0BB3E316E9D398A5314 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = C0786599DD07E84A7EB2BFE8B5315D6D /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		58A28B3667B5A41B0E82311E4030AAFC /* UIImage+LightWebCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC2DBB0D2FBE7665BFEE553524874C5 /* UIImage+LightWebCategory.m */; };
+		65C987E21AF8051AE3125038EEF2B7E2 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB40A661882552FD03A72CB4DCF409 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		65CA17B269BEF5E0E2A35F41328128D6 /* LightWebMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 505F6F1142A3A0547A6D67710176A5B1 /* LightWebMainView.m */; };
+		671D0D243CCF4901A807EA47AE174EA1 /* LightWebAppInfoItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 153E1968455371A4F5263428F312869A /* LightWebAppInfoItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		680078581A86D50ABC6982EBBC9B9B3B /* LightWebAppInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D10BBDDEB6E55B8C18048B37A9E3F322 /* LightWebAppInfoItem.m */; };
+		6E434B3713F48C2F7F2D5297537BBA20 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DD294219E55D3C3450553832640FD0 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6FEDDD4B39AF2EA04FDE6ABB597AC6DE /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = 617E0DE0DB230C9544F99E0F8AD67B21 /* minishared.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		702808B486666118707CEEF91B3FD9DF /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D5FCEDCB14EDF21616469F3548EE51 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		737D6C2513F66FA2604F87D6F1A43DE3 /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C7A4CE735DA6B68ED47E9249E920F0 /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73DD3DCEED0B0270BDEEEF79D2D742EB /* LightWebFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A06AAE3C61BC235FBE28DFC4CAA90439 /* LightWebFileHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7731F534B89594428DB1E70973C5CA9E /* LightWebErrorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF6C6AEFA0C5021267435065663EC7A /* LightWebErrorView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CEE8ADD8F302D1A23155AEDBDCF99D9 /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 2145C135003B2FE0157F8EE10D09F89D /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D2AF1EDF99DF9B3FDD5297E4EF7B9E8 /* LightWebPageConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = C478CCF85F3BF1B59F761F1098C19251 /* LightWebPageConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FFBBE536EDD320117F20962A16CAE82 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EB1000F5DAC36ACB85066AEE73EBDA4 /* SSZipArchive.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86A7EFF7302B8A859336CFFF236746B0 /* LightWebAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62D5756F0506BF2F0AB72D6F8BC40FB /* LightWebAppController.m */; };
+		875A941B34B04950B7207D7780849219 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = A87BE6A0BF110512546506088968238B /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		87E43BC820930CE8CDB9183CD29CF30F /* Pods-LightWebCoreExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2065FE6AB7611CD31DE96C55B0F0B /* Pods-LightWebCoreExample-dummy.m */; };
+		8970B2777F3B3C3778D3F3A48AD4D563 /* LightWebNavView.h in Headers */ = {isa = PBXBuildFile; fileRef = 015C1C8DA7CB6E7A772155CE2932FABE /* LightWebNavView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A15B99E2BD5FE5BE9192AD181E0C8DA /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 1BDB32266E889281BB1A8EA4FC6BF272 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8EAA87D382826BC9D66286E4854C45B3 /* LightWebWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A2AAB59C953B1BF9CD1DEA5E859729 /* LightWebWKWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F819D4189BA418D8F10CADF8FC5DBB8 /* LightWebCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7DD487F210E735A3D3CC8D2F63FE88 /* LightWebCore-dummy.m */; };
+		91BE41F9425D6C45E462442400DF643A /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A66922A57E4C7C1CF86C237B9DE30D1 /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93BCAC23F59CCE25809D58D0CF8F6B18 /* aes_ni.h in Headers */ = {isa = PBXBuildFile; fileRef = C18B81B28BC58C8FB3FA304E0DDA16E9 /* aes_ni.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96D29B19A30C212EECD877C9918706D4 /* LightWebDismissAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F60D26942B3018E97567D0C82C88691 /* LightWebDismissAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		97688C928A1A27CD98635E47331BE4A8 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 746FE4E9801279633D79560FF11C445C /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A7BEEB11A7A720186560A3F2A036B62 /* LightWebJsonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B5D01B14CFC962C3D9FFCADC48DF8 /* LightWebJsonHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BD1B1B9280F006DAF8F35CBFE060CAD /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA637C6C0930B325FCFBF9DB43DFF35 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C3EF072671B0756D6D15DD289C95018 /* NSString+LightWebCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B02B3775FD434D8AF793F47303242A1B /* NSString+LightWebCategory.m */; };
+		9FE45E8A3F4994DB9C6935C7EEA1FAB3 /* LightWebJavaScriptMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 748A0CC888B9592D108A45AD190A9B63 /* LightWebJavaScriptMethod.m */; };
+		A0E095220EED4FEAA851B605E71B2AB2 /* LightWebLoadView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0673EFA66CF02FF3F828A30055E3769A /* LightWebLoadView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1761D0568DDF3E7796C652E627710F6 /* LightWebNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = D816CF801CAA04147D8789FCED41AD94 /* LightWebNavView.m */; };
+		A2A34B7F4F6A6F234CDA22A238752F4E /* minishared.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BF5F7488B602A88DC0D6E4E723127E /* minishared.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4EE893F48EDB041C0940287FF30E152 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = ABE991F2FB99E94595A91175752B3E81 /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A857C327CF77A43DD992142E0B69528C /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = E502344091A696C5618E68529F921BB3 /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AEA5E07F669A1661E4D3106C99FB95AC /* LightWebJsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B83022A7153BCB742DE515F426938666 /* LightWebJsonHelper.m */; };
+		AF02CCB57F7CDF926C0607DE872B575E /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 03952CD54209FE8AC8C5C3FFDDF014A8 /* crypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AFC8547B5D36DD3016B815F8710CA917 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ADC6E15890C53BD230EC3FC50C1DB9C /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD7E9EC1A34114DDC3F6FDC5466EE3B9 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = E9732EF5E242B7DA4C158B32936E4A5A /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BDA13EF83B1E808A3A5BB661DFE9F718 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 135189A9960697AA22E3CC2BAB671DB0 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BE4C033D161B62AD05B8C8139ED8A12D /* UIColor+LightWebCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB8D41ED8A66710710FB7B8DD96C42A /* UIColor+LightWebCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BF66E09F12120AC3DFAB9FBE23FEBF27 /* LightWebJavaScriptMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA653882A97501576B16859F2089B31 /* LightWebJavaScriptMethod.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C05A3742E438646C6BB1A8F7203A6355 /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = DE44610FD4AB668BA142C83F1C4D72C9 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C38D2E1B219674549B42E2E57DA4E6E4 /* LightWebJavaScriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE424830502CEDC2A58C5C000B7C6F02 /* LightWebJavaScriptManager.m */; };
+		C40CDB68C5AEDEC596C71F823D6E5A77 /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C99183D4F4D8AD5CE014D0D27A69FAE /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5CAE5A35B50CC14A6A5EDD069589C87 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9BECAA55048BABB66996D22FE71A46 /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7697EB6B0DF428D84FC15166D657E6C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F40847871D8E2027255707D7384599 /* AudioToolbox.framework */; };
+		C7C4F52D38810D97A2E6C7091882A9CB /* LightWebErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE45E27E151CAA23CD0EBDA5A2A3A851 /* LightWebErrorView.m */; };
+		C9CD0595E8DD35A7383F6C605AF5E8AB /* LightWebPageConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7878ED02A966CA20892B9BED2529C381 /* LightWebPageConfig.m */; };
+		CC0FBD673917F53DD9D24ECAF054EBFA /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 051C63E7E4FF83CA37915C6D1A806025 /* ZipArchive.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D282CF2CBEC30AC4D762FBAC90000730 /* LightWebFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DA955E9F8A2289068CB1C36BF4361C /* LightWebFileHelper.m */; };
+		D7E172299A266ABE43A69503902353BC /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 78524489050FAECCFA7298D85E901308 /* ioapi_buf.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D84A6ADA5F4C3BEE808E0AE8561E02A3 /* LightWebPanInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B8828BAA8CC216ABCCA668532259508 /* LightWebPanInteractiveTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD4A8A1E2BDD4FF4764FE9B4B4D66EA0 /* LightWebCoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20137A588EF14930150CB0D97A5557C4 /* LightWebCoreController.m */; };
+		E1954CF66C50D7B824A1F8C1A93996E9 /* LightWebDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF84949652ED73AFDA603FE543B2FBF /* LightWebDismissAnimation.m */; };
+		E23CFF5826F5F7A713B1E76D2BAEB7AE /* LightWebLoadHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDCC5D251C1DF97C5C2048DBC2F1636 /* LightWebLoadHelper.m */; };
+		E3EEBFDE6D740C97FCA32AD6CFB0D8AE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 216D203AACC79CC94C014065583A424E /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E724643C24FE4DC40042BDDE /* LightWebRouterSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = E724643A24FE4DC40042BDDE /* LightWebRouterSystem.h */; };
+		E724643D24FE4DC40042BDDE /* LightWebRouterSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = E724643B24FE4DC40042BDDE /* LightWebRouterSystem.m */; };
+		E92D18B0A78423ECC472E2198E58EB03 /* UIColor+LightWebCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E9D7FD5DE714431DA7BE42A700B15C0 /* UIColor+LightWebCategory.m */; };
+		EF95DB08AC98BA3D010A84F2075486A2 /* LightWebLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D0CE271D6FD5746191173D47E484A /* LightWebLoadView.m */; };
+		F5774EEB9B72F1DDD541E0819A779F8B /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = BD906F28FE69D4BBC2A8B29C72021F48 /* ioapi_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F754A0D7A1FF4CF8AD9AB940F1FD5A0D /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F21C27B4A7B74551324E9786AD59AC /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBA6341555B852F0FEF1F67347015A89 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = C5B16EF482569CFBCD40900CD7A72A92 /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1746E0B3FC73F9465E5BEEE744D47E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C19889F136E018F79BF2262E7AD3FA8;
+			remoteInfo = "LightWebCore-LightWebCore";
+		};
+		400D032C6E94862CBB1C1AB4C16D175E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2295E186839D0D90544BCF8569993222;
+			remoteInfo = SSZipArchive;
+		};
+		8FB4825C6CFDF039E806CD734CC09ED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2295E186839D0D90544BCF8569993222;
+			remoteInfo = SSZipArchive;
+		};
+		B687D46FF7BD1A59798AE0CA33D365B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E45BBA13FF31C40BC3153396776EEE69;
+			remoteInfo = LightWebCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015C1C8DA7CB6E7A772155CE2932FABE /* LightWebNavView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebNavView.h; sourceTree = "<group>"; };
+		03952CD54209FE8AC8C5C3FFDDF014A8 /* crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = crypt.c; path = SSZipArchive/minizip/crypt.c; sourceTree = "<group>"; };
+		051C63E7E4FF83CA37915C6D1A806025 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		0673EFA66CF02FF3F828A30055E3769A /* LightWebLoadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebLoadView.h; sourceTree = "<group>"; };
+		074B5D01B14CFC962C3D9FFCADC48DF8 /* LightWebJsonHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebJsonHelper.h; sourceTree = "<group>"; };
+		135189A9960697AA22E3CC2BAB671DB0 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pwd2key.c; path = SSZipArchive/minizip/aes/pwd2key.c; sourceTree = "<group>"; };
+		14C7A4CE735DA6B68ED47E9249E920F0 /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/minizip/aes/fileenc.h; sourceTree = "<group>"; };
+		14DA533432B7C592FABB0748C2158839 /* LightWebWKWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebWKWebView.m; sourceTree = "<group>"; };
+		153E1968455371A4F5263428F312869A /* LightWebAppInfoItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebAppInfoItem.h; sourceTree = "<group>"; };
+		154D5EE0F8AEC3C70CBB60C8A4D20ECA /* LightWebPanInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebPanInteractiveTransition.m; sourceTree = "<group>"; };
+		1A66922A57E4C7C1CF86C237B9DE30D1 /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SSZipArchive-umbrella.h"; path = "../../Headers/Public/SSZipArchive/SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		1B79520FE58AA0E7C7EBA42C53A5D2BF /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		1BDB32266E889281BB1A8EA4FC6BF272 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = fileenc.c; path = SSZipArchive/minizip/aes/fileenc.c; sourceTree = "<group>"; };
+		1C0EBD34DEA0FB779EEC515FB31FF80F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1DEB40A661882552FD03A72CB4DCF409 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aescrypt.c; path = SSZipArchive/minizip/aes/aescrypt.c; sourceTree = "<group>"; };
+		1E7DD487F210E735A3D3CC8D2F63FE88 /* LightWebCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LightWebCore-dummy.m"; sourceTree = "<group>"; };
+		1F60D26942B3018E97567D0C82C88691 /* LightWebDismissAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebDismissAnimation.h; sourceTree = "<group>"; };
+		20137A588EF14930150CB0D97A5557C4 /* LightWebCoreController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LightWebCoreController.m; path = LightWebCore/Classes/LightWebCoreController.m; sourceTree = "<group>"; };
+		2145C135003B2FE0157F8EE10D09F89D /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		216D203AACC79CC94C014065583A424E /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		2396754C350C9F7637A1C0BACBEFC974 /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		24E1AA04E882A47621BF4977078BB1EE /* LightWebCore.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightWebCore.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		288CF036AF069F497F393BFE970BAA7A /* LightWebCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LightWebCore.xcconfig; sourceTree = "<group>"; };
+		2C99183D4F4D8AD5CE014D0D27A69FAE /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		2E9D7FD5DE714431DA7BE42A700B15C0 /* UIColor+LightWebCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LightWebCategory.m"; sourceTree = "<group>"; };
+		356F89D8A3BD10BCCF44180EA98996EB /* Pods-LightWebCoreExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LightWebCoreExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3EB1000F5DAC36ACB85066AEE73EBDA4 /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		428F3099D8116A26F5C423BC0364AC77 /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SSZipArchive.modulemap; path = ../../Headers/Public/SSZipArchive/SSZipArchive.modulemap; sourceTree = "<group>"; };
+		4498C4305D7CEAF9EF7A2241F4E96FD1 /* libPods-LightWebCoreExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightWebCoreExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4796E396AF712D228AE7F35B91132FE6 /* Pods-LightWebCoreExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LightWebCoreExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4AD992BF25D3A8734C56F4615EEF3E15 /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8828BAA8CC216ABCCA668532259508 /* LightWebPanInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebPanInteractiveTransition.h; sourceTree = "<group>"; };
+		4E7D0CE271D6FD5746191173D47E484A /* LightWebLoadView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebLoadView.m; sourceTree = "<group>"; };
+		505F6F1142A3A0547A6D67710176A5B1 /* LightWebMainView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebMainView.m; sourceTree = "<group>"; };
+		54C307E7626DC67E5BB910CA8EF98B0C /* Pods-LightWebCoreExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LightWebCoreExample-resources.sh"; sourceTree = "<group>"; };
+		56DD294219E55D3C3450553832640FD0 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/minizip/aes/aestab.h; sourceTree = "<group>"; };
+		5EF6C6AEFA0C5021267435065663EC7A /* LightWebErrorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebErrorView.h; sourceTree = "<group>"; };
+		617E0DE0DB230C9544F99E0F8AD67B21 /* minishared.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = minishared.c; path = SSZipArchive/minizip/minishared.c; sourceTree = "<group>"; };
+		62953A09566741F8167F2631B91B3171 /* libLightWebCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLightWebCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A2AAB59C953B1BF9CD1DEA5E859729 /* LightWebWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebWKWebView.h; sourceTree = "<group>"; };
+		6ADC6E15890C53BD230EC3FC50C1DB9C /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/minizip/aes/aes.h; sourceTree = "<group>"; };
+		73C465A8C93AA86946265417DAAB0616 /* ioapi_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi_mem.c; path = SSZipArchive/minizip/ioapi_mem.c; sourceTree = "<group>"; };
+		7465D02678E184188E869CAD7629E5F0 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		746FE4E9801279633D79560FF11C445C /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		748A0CC888B9592D108A45AD190A9B63 /* LightWebJavaScriptMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebJavaScriptMethod.m; sourceTree = "<group>"; };
+		77E03F80293112EB56E92156DE4B91C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78524489050FAECCFA7298D85E901308 /* ioapi_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ioapi_buf.c; path = SSZipArchive/minizip/ioapi_buf.c; sourceTree = "<group>"; };
+		7878ED02A966CA20892B9BED2529C381 /* LightWebPageConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebPageConfig.m; sourceTree = "<group>"; };
+		7BC2DBB0D2FBE7665BFEE553524874C5 /* UIImage+LightWebCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LightWebCategory.m"; sourceTree = "<group>"; };
+		7E8A443132D900DEA7F6B4231ABFE801 /* LightWebAppFileItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebAppFileItem.m; sourceTree = "<group>"; };
+		8665AC180C2B1C52FD9B43E29ED7FB78 /* Pods-LightWebCoreExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LightWebCoreExample-frameworks.sh"; sourceTree = "<group>"; };
+		874AD1CBD9D5E96B85854F544C6CE0F1 /* Pods-LightWebCoreExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LightWebCoreExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A9BECAA55048BABB66996D22FE71A46 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/minizip/aes/hmac.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A393737B3122CD01B13D51A418414F2 /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/minizip/aes/prng.h; sourceTree = "<group>"; };
+		9BD2065FE6AB7611CD31DE96C55B0F0B /* Pods-LightWebCoreExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LightWebCoreExample-dummy.m"; sourceTree = "<group>"; };
+		9DA653882A97501576B16859F2089B31 /* LightWebJavaScriptMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebJavaScriptMethod.h; sourceTree = "<group>"; };
+		A06AAE3C61BC235FBE28DFC4CAA90439 /* LightWebFileHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebFileHelper.h; sourceTree = "<group>"; };
+		A752C7189B8EBD4E89F1EFF1082B7F3C /* LightWebAppFileItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebAppFileItem.h; sourceTree = "<group>"; };
+		A87BE6A0BF110512546506088968238B /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/minizip/aes/aesopt.h; sourceTree = "<group>"; };
+		A88F77302F3C23F0BAFCE52423A0E482 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		A8E868671A5D71395BB9611B58E55E87 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		A8EB2A58C52EBD57C4DDB31F3BA503CC /* LightWebCapsuleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebCapsuleView.h; sourceTree = "<group>"; };
+		ABA637C6C0930B325FCFBF9DB43DFF35 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/minizip/aes/sha1.h; sourceTree = "<group>"; };
+		ABE991F2FB99E94595A91175752B3E81 /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aeskey.c; path = SSZipArchive/minizip/aes/aeskey.c; sourceTree = "<group>"; };
+		ADB160CCEA9AC56667E3309306CDDDDA /* vconsole.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = vconsole.js; path = LightWebCore/Assets/vconsole.js; sourceTree = "<group>"; };
+		AEBA1A89E6E110D3446AC531B8C5B185 /* lightWebCore.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = lightWebCore.xcassets; path = LightWebCore/Assets/lightWebCore.xcassets; sourceTree = "<group>"; };
+		B02B3775FD434D8AF793F47303242A1B /* NSString+LightWebCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+LightWebCategory.m"; sourceTree = "<group>"; };
+		B2AA4A90C388F88E9441C9B62AEE9EA8 /* aes_ni.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aes_ni.c; path = SSZipArchive/minizip/aes/aes_ni.c; sourceTree = "<group>"; };
+		B43FFA151418F57A1762725D85615F72 /* LightWebJavaScriptManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebJavaScriptManager.h; sourceTree = "<group>"; };
+		B83022A7153BCB742DE515F426938666 /* LightWebJsonHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebJsonHelper.m; sourceTree = "<group>"; };
+		BD906F28FE69D4BBC2A8B29C72021F48 /* ioapi_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_buf.h; path = SSZipArchive/minizip/ioapi_buf.h; sourceTree = "<group>"; };
+		BDB8D41ED8A66710710FB7B8DD96C42A /* UIColor+LightWebCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+LightWebCategory.h"; sourceTree = "<group>"; };
+		BE424830502CEDC2A58C5C000B7C6F02 /* LightWebJavaScriptManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebJavaScriptManager.m; sourceTree = "<group>"; };
+		BE74ADC21863DA5797210FB0C1FDB757 /* NSString+LightWebCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+LightWebCategory.h"; sourceTree = "<group>"; };
+		C0786599DD07E84A7EB2BFE8B5315D6D /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		C0DA955E9F8A2289068CB1C36BF4361C /* LightWebFileHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebFileHelper.m; sourceTree = "<group>"; };
+		C18B81B28BC58C8FB3FA304E0DDA16E9 /* aes_ni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ni.h; path = SSZipArchive/minizip/aes/aes_ni.h; sourceTree = "<group>"; };
+		C4711CFA987B5002C1B8F2FF6F440560 /* LightWebCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LightWebCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C478CCF85F3BF1B59F761F1098C19251 /* LightWebPageConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebPageConfig.h; sourceTree = "<group>"; };
+		C5B16EF482569CFBCD40900CD7A72A92 /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/minizip/aes/pwd2key.h; sourceTree = "<group>"; };
+		C62D5756F0506BF2F0AB72D6F8BC40FB /* LightWebAppController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebAppController.m; sourceTree = "<group>"; };
+		C9BF5F7488B602A88DC0D6E4E723127E /* minishared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = minishared.h; path = SSZipArchive/minizip/minishared.h; sourceTree = "<group>"; };
+		CE45E27E151CAA23CD0EBDA5A2A3A851 /* LightWebErrorView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebErrorView.m; sourceTree = "<group>"; };
+		CF0DE416D6344E5CFACA931A7E86BFEE /* ioapi_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_mem.h; path = SSZipArchive/minizip/ioapi_mem.h; sourceTree = "<group>"; };
+		D0F40847871D8E2027255707D7384599 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		D10BBDDEB6E55B8C18048B37A9E3F322 /* LightWebAppInfoItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebAppInfoItem.m; sourceTree = "<group>"; };
+		D23B1E40F221AE220C0B79E91B7E4680 /* LightWebMainView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebMainView.h; sourceTree = "<group>"; };
+		D3DC3801FD00B70184AD3ACE9DDA2877 /* LightWebCapsuleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebCapsuleView.m; sourceTree = "<group>"; };
+		D816CF801CAA04147D8789FCED41AD94 /* LightWebNavView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebNavView.m; sourceTree = "<group>"; };
+		DA4B6A435287518CDC7AAF02E8570A1B /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = aestab.c; path = SSZipArchive/minizip/aes/aestab.c; sourceTree = "<group>"; };
+		DBDCC5D251C1DF97C5C2048DBC2F1636 /* LightWebLoadHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebLoadHelper.m; sourceTree = "<group>"; };
+		DE3C5B1C22244D0A0F05E353EA7D775C /* ResourceBundle-LightWebCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LightWebCore-Info.plist"; sourceTree = "<group>"; };
+		DE44610FD4AB668BA142C83F1C4D72C9 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/minizip/aes/brg_types.h; sourceTree = "<group>"; };
+		E3D5FCEDCB14EDF21616469F3548EE51 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		E43B21C6C1A301FE7301778B627522AB /* LightWebCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LightWebCore-prefix.pch"; sourceTree = "<group>"; };
+		E4F21C27B4A7B74551324E9786AD59AC /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/minizip/aes/brg_endian.h; sourceTree = "<group>"; };
+		E502344091A696C5618E68529F921BB3 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmac.c; path = SSZipArchive/minizip/aes/hmac.c; sourceTree = "<group>"; };
+		E6B0CDBA29C9DA8E088BA231FC39BD2F /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		E724643A24FE4DC40042BDDE /* LightWebRouterSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightWebRouterSystem.h; sourceTree = "<group>"; };
+		E724643B24FE4DC40042BDDE /* LightWebRouterSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightWebRouterSystem.m; sourceTree = "<group>"; };
+		E9732EF5E242B7DA4C158B32936E4A5A /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = prng.c; path = SSZipArchive/minizip/aes/prng.c; sourceTree = "<group>"; };
+		E9B1DC8961FB8F83325CC7CCF780D13F /* LightWebAppController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebAppController.h; sourceTree = "<group>"; };
+		EF0371F554C5F2C3B3E3FF29E858A5AB /* UIImage+LightWebCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+LightWebCategory.h"; sourceTree = "<group>"; };
+		EF1D72BFC4D337B4CC70B011C2CB108D /* LightWebLoadHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LightWebLoadHelper.h; sourceTree = "<group>"; };
+		F14807B9FEB4019433DCE1925887E877 /* Pods-LightWebCoreExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LightWebCoreExample.release.xcconfig"; sourceTree = "<group>"; };
+		F1D39671030D1251B9F0D640B6C4AE33 /* LightWebCoreController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LightWebCoreController.h; path = LightWebCore/Classes/LightWebCoreController.h; sourceTree = "<group>"; };
+		F282A6B8DB59CFA053CFBAC0E2A9675C /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = SSZipArchive/minizip/aes/sha1.c; sourceTree = "<group>"; };
+		FCF84949652ED73AFDA603FE543B2FBF /* LightWebDismissAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LightWebDismissAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50CB43A4689991A97F440F16B8CF7272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C2C8AEA8B609660B9D66E2B016647F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC93089E9306D6668FB60739690732DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7697EB6B0DF428D84FC15166D657E6C /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AD6C3F96358687CD8A891D2E7044EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CA7465A0671585D632B5AA73BA5C18 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1C0EBD34DEA0FB779EEC515FB31FF80F /* LICENSE */,
+				C4711CFA987B5002C1B8F2FF6F440560 /* LightWebCore.podspec */,
+				77E03F80293112EB56E92156DE4B91C9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1BA241A8E37EEA7C30732FF9F6EE88F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29799A20764BA26B2B2CC075B8B9C2A4 /* Pods-LightWebCoreExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29799A20764BA26B2B2CC075B8B9C2A4 /* Pods-LightWebCoreExample */ = {
+			isa = PBXGroup;
+			children = (
+				356F89D8A3BD10BCCF44180EA98996EB /* Pods-LightWebCoreExample-acknowledgements.markdown */,
+				874AD1CBD9D5E96B85854F544C6CE0F1 /* Pods-LightWebCoreExample-acknowledgements.plist */,
+				9BD2065FE6AB7611CD31DE96C55B0F0B /* Pods-LightWebCoreExample-dummy.m */,
+				8665AC180C2B1C52FD9B43E29ED7FB78 /* Pods-LightWebCoreExample-frameworks.sh */,
+				54C307E7626DC67E5BB910CA8EF98B0C /* Pods-LightWebCoreExample-resources.sh */,
+				4796E396AF712D228AE7F35B91132FE6 /* Pods-LightWebCoreExample.debug.xcconfig */,
+				F14807B9FEB4019433DCE1925887E877 /* Pods-LightWebCoreExample.release.xcconfig */,
+			);
+			name = "Pods-LightWebCoreExample";
+			path = "Target Support Files/Pods-LightWebCoreExample";
+			sourceTree = "<group>";
+		};
+		3A1EFB0957091DA1FF8C95B1D55B68A3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C53419FE457648B529358C4175A487B9 /* LightWebCore */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3B84698EB47BA869493F42BAFF93F5D4 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				6ADC6E15890C53BD230EC3FC50C1DB9C /* aes.h */,
+				B2AA4A90C388F88E9441C9B62AEE9EA8 /* aes_ni.c */,
+				C18B81B28BC58C8FB3FA304E0DDA16E9 /* aes_ni.h */,
+				1DEB40A661882552FD03A72CB4DCF409 /* aescrypt.c */,
+				ABE991F2FB99E94595A91175752B3E81 /* aeskey.c */,
+				A87BE6A0BF110512546506088968238B /* aesopt.h */,
+				DA4B6A435287518CDC7AAF02E8570A1B /* aestab.c */,
+				56DD294219E55D3C3450553832640FD0 /* aestab.h */,
+				E4F21C27B4A7B74551324E9786AD59AC /* brg_endian.h */,
+				DE44610FD4AB668BA142C83F1C4D72C9 /* brg_types.h */,
+				03952CD54209FE8AC8C5C3FFDDF014A8 /* crypt.c */,
+				2C99183D4F4D8AD5CE014D0D27A69FAE /* crypt.h */,
+				1BDB32266E889281BB1A8EA4FC6BF272 /* fileenc.c */,
+				14C7A4CE735DA6B68ED47E9249E920F0 /* fileenc.h */,
+				E502344091A696C5618E68529F921BB3 /* hmac.c */,
+				8A9BECAA55048BABB66996D22FE71A46 /* hmac.h */,
+				216D203AACC79CC94C014065583A424E /* ioapi.c */,
+				2145C135003B2FE0157F8EE10D09F89D /* ioapi.h */,
+				78524489050FAECCFA7298D85E901308 /* ioapi_buf.c */,
+				BD906F28FE69D4BBC2A8B29C72021F48 /* ioapi_buf.h */,
+				73C465A8C93AA86946265417DAAB0616 /* ioapi_mem.c */,
+				CF0DE416D6344E5CFACA931A7E86BFEE /* ioapi_mem.h */,
+				617E0DE0DB230C9544F99E0F8AD67B21 /* minishared.c */,
+				C9BF5F7488B602A88DC0D6E4E723127E /* minishared.h */,
+				E9732EF5E242B7DA4C158B32936E4A5A /* prng.c */,
+				9A393737B3122CD01B13D51A418414F2 /* prng.h */,
+				135189A9960697AA22E3CC2BAB671DB0 /* pwd2key.c */,
+				C5B16EF482569CFBCD40900CD7A72A92 /* pwd2key.h */,
+				F282A6B8DB59CFA053CFBAC0E2A9675C /* sha1.c */,
+				ABA637C6C0930B325FCFBF9DB43DFF35 /* sha1.h */,
+				3EB1000F5DAC36ACB85066AEE73EBDA4 /* SSZipArchive.h */,
+				7465D02678E184188E869CAD7629E5F0 /* SSZipArchive.m */,
+				E6B0CDBA29C9DA8E088BA231FC39BD2F /* SSZipCommon.h */,
+				A8E868671A5D71395BB9611B58E55E87 /* unzip.c */,
+				746FE4E9801279633D79560FF11C445C /* unzip.h */,
+				C0786599DD07E84A7EB2BFE8B5315D6D /* zip.c */,
+				E3D5FCEDCB14EDF21616469F3548EE51 /* zip.h */,
+				051C63E7E4FF83CA37915C6D1A806025 /* ZipArchive.h */,
+				4863F6D387253671CABA8BA07D5E8A59 /* Support Files */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		4489F9EE0347C1F27354E71A139A69BD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				82286688FFCA871305AE40D6FD9DBB09 /* Category */,
+				FCD9D5CC6E823B3030FB7D57336C3481 /* Controller */,
+				CE0639ABB21AAE0878D90FEEE0A82F8D /* Helper */,
+				5A4EBE183A094CEB84089A71553062C4 /* Model */,
+				FBA8B3239BA7DC03684B49797EF5B4F0 /* Transition */,
+				A8333B6D84D6BA6C2FC7CC2D013DDF06 /* View */,
+			);
+			name = Main;
+			path = LightWebCore/Classes/Main;
+			sourceTree = "<group>";
+		};
+		4863F6D387253671CABA8BA07D5E8A59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				428F3099D8116A26F5C423BC0364AC77 /* SSZipArchive.modulemap */,
+				A88F77302F3C23F0BAFCE52423A0E482 /* SSZipArchive.xcconfig */,
+				1B79520FE58AA0E7C7EBA42C53A5D2BF /* SSZipArchive-dummy.m */,
+				2396754C350C9F7637A1C0BACBEFC974 /* SSZipArchive-prefix.pch */,
+				1A66922A57E4C7C1CF86C237B9DE30D1 /* SSZipArchive-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		4F145446B1368F3E3D7B8B3E2EE155E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B84698EB47BA869493F42BAFF93F5D4 /* SSZipArchive */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A4EBE183A094CEB84089A71553062C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DA653882A97501576B16859F2089B31 /* LightWebJavaScriptMethod.h */,
+				748A0CC888B9592D108A45AD190A9B63 /* LightWebJavaScriptMethod.m */,
+				A752C7189B8EBD4E89F1EFF1082B7F3C /* LightWebAppFileItem.h */,
+				7E8A443132D900DEA7F6B4231ABFE801 /* LightWebAppFileItem.m */,
+				153E1968455371A4F5263428F312869A /* LightWebAppInfoItem.h */,
+				D10BBDDEB6E55B8C18048B37A9E3F322 /* LightWebAppInfoItem.m */,
+				C478CCF85F3BF1B59F761F1098C19251 /* LightWebPageConfig.h */,
+				7878ED02A966CA20892B9BED2529C381 /* LightWebPageConfig.m */,
+				E724643A24FE4DC40042BDDE /* LightWebRouterSystem.h */,
+				E724643B24FE4DC40042BDDE /* LightWebRouterSystem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3A1EFB0957091DA1FF8C95B1D55B68A3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4F145446B1368F3E3D7B8B3E2EE155E1 /* Pods */,
+				A76875D286CFB37B24B1A219AAFEB582 /* Products */,
+				1BA241A8E37EEA7C30732FF9F6EE88F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82286688FFCA871305AE40D6FD9DBB09 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BE74ADC21863DA5797210FB0C1FDB757 /* NSString+LightWebCategory.h */,
+				B02B3775FD434D8AF793F47303242A1B /* NSString+LightWebCategory.m */,
+				BDB8D41ED8A66710710FB7B8DD96C42A /* UIColor+LightWebCategory.h */,
+				2E9D7FD5DE714431DA7BE42A700B15C0 /* UIColor+LightWebCategory.m */,
+				EF0371F554C5F2C3B3E3FF29E858A5AB /* UIImage+LightWebCategory.h */,
+				7BC2DBB0D2FBE7665BFEE553524874C5 /* UIImage+LightWebCategory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A76875D286CFB37B24B1A219AAFEB582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62953A09566741F8167F2631B91B3171 /* libLightWebCore.a */,
+				4498C4305D7CEAF9EF7A2241F4E96FD1 /* libPods-LightWebCoreExample.a */,
+				4AD992BF25D3A8734C56F4615EEF3E15 /* libSSZipArchive.a */,
+				24E1AA04E882A47621BF4977078BB1EE /* LightWebCore.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8333B6D84D6BA6C2FC7CC2D013DDF06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB2A58C52EBD57C4DDB31F3BA503CC /* LightWebCapsuleView.h */,
+				D3DC3801FD00B70184AD3ACE9DDA2877 /* LightWebCapsuleView.m */,
+				5EF6C6AEFA0C5021267435065663EC7A /* LightWebErrorView.h */,
+				CE45E27E151CAA23CD0EBDA5A2A3A851 /* LightWebErrorView.m */,
+				0673EFA66CF02FF3F828A30055E3769A /* LightWebLoadView.h */,
+				4E7D0CE271D6FD5746191173D47E484A /* LightWebLoadView.m */,
+				D23B1E40F221AE220C0B79E91B7E4680 /* LightWebMainView.h */,
+				505F6F1142A3A0547A6D67710176A5B1 /* LightWebMainView.m */,
+				015C1C8DA7CB6E7A772155CE2932FABE /* LightWebNavView.h */,
+				D816CF801CAA04147D8789FCED41AD94 /* LightWebNavView.m */,
+				69A2AAB59C953B1BF9CD1DEA5E859729 /* LightWebWKWebView.h */,
+				14DA533432B7C592FABB0748C2158839 /* LightWebWKWebView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7AF70D4DD012B17225B1C9857E45283 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEBA1A89E6E110D3446AC531B8C5B185 /* lightWebCore.xcassets */,
+				ADB160CCEA9AC56667E3309306CDDDDA /* vconsole.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5113A9982CCF1C553315E41C4994BE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C53419FE457648B529358C4175A487B9 /* LightWebCore */ = {
+			isa = PBXGroup;
+			children = (
+				F1D39671030D1251B9F0D640B6C4AE33 /* LightWebCoreController.h */,
+				20137A588EF14930150CB0D97A5557C4 /* LightWebCoreController.m */,
+				4489F9EE0347C1F27354E71A139A69BD /* Main */,
+				10CA7465A0671585D632B5AA73BA5C18 /* Pod */,
+				B7AF70D4DD012B17225B1C9857E45283 /* Resources */,
+				E0AE4BFF23F8D441C58154DD71B25E1A /* Support Files */,
+			);
+			name = LightWebCore;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE0639ABB21AAE0878D90FEEE0A82F8D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A06AAE3C61BC235FBE28DFC4CAA90439 /* LightWebFileHelper.h */,
+				C0DA955E9F8A2289068CB1C36BF4361C /* LightWebFileHelper.m */,
+				B43FFA151418F57A1762725D85615F72 /* LightWebJavaScriptManager.h */,
+				BE424830502CEDC2A58C5C000B7C6F02 /* LightWebJavaScriptManager.m */,
+				074B5D01B14CFC962C3D9FFCADC48DF8 /* LightWebJsonHelper.h */,
+				B83022A7153BCB742DE515F426938666 /* LightWebJsonHelper.m */,
+				EF1D72BFC4D337B4CC70B011C2CB108D /* LightWebLoadHelper.h */,
+				DBDCC5D251C1DF97C5C2048DBC2F1636 /* LightWebLoadHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E0AE4BFF23F8D441C58154DD71B25E1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				288CF036AF069F497F393BFE970BAA7A /* LightWebCore.xcconfig */,
+				1E7DD487F210E735A3D3CC8D2F63FE88 /* LightWebCore-dummy.m */,
+				E43B21C6C1A301FE7301778B627522AB /* LightWebCore-prefix.pch */,
+				DE3C5B1C22244D0A0F05E353EA7D775C /* ResourceBundle-LightWebCore-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LightWebCore";
+			sourceTree = "<group>";
+		};
+		EC5113A9982CCF1C553315E41C4994BE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D0F40847871D8E2027255707D7384599 /* AudioToolbox.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FBA8B3239BA7DC03684B49797EF5B4F0 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				1F60D26942B3018E97567D0C82C88691 /* LightWebDismissAnimation.h */,
+				FCF84949652ED73AFDA603FE543B2FBF /* LightWebDismissAnimation.m */,
+				4B8828BAA8CC216ABCCA668532259508 /* LightWebPanInteractiveTransition.h */,
+				154D5EE0F8AEC3C70CBB60C8A4D20ECA /* LightWebPanInteractiveTransition.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		FCD9D5CC6E823B3030FB7D57336C3481 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E9B1DC8961FB8F83325CC7CCF780D13F /* LightWebAppController.h */,
+				C62D5756F0506BF2F0AB72D6F8BC40FB /* LightWebAppController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6422ABEDA34D0039AA2D480BCF54AAFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CA0D4803F56F26802CFE440C9F8412 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFC8547B5D36DD3016B815F8710CA917 /* aes.h in Headers */,
+				93BCAC23F59CCE25809D58D0CF8F6B18 /* aes_ni.h in Headers */,
+				875A941B34B04950B7207D7780849219 /* aesopt.h in Headers */,
+				6E434B3713F48C2F7F2D5297537BBA20 /* aestab.h in Headers */,
+				F754A0D7A1FF4CF8AD9AB940F1FD5A0D /* brg_endian.h in Headers */,
+				C05A3742E438646C6BB1A8F7203A6355 /* brg_types.h in Headers */,
+				C40CDB68C5AEDEC596C71F823D6E5A77 /* crypt.h in Headers */,
+				737D6C2513F66FA2604F87D6F1A43DE3 /* fileenc.h in Headers */,
+				C5CAE5A35B50CC14A6A5EDD069589C87 /* hmac.h in Headers */,
+				7CEE8ADD8F302D1A23155AEDBDCF99D9 /* ioapi.h in Headers */,
+				F5774EEB9B72F1DDD541E0819A779F8B /* ioapi_buf.h in Headers */,
+				069F11200F021D264DEF92F3AB2109F1 /* ioapi_mem.h in Headers */,
+				A2A34B7F4F6A6F234CDA22A238752F4E /* minishared.h in Headers */,
+				0842B61C414D0DEED594AE89EBCDA062 /* prng.h in Headers */,
+				FBA6341555B852F0FEF1F67347015A89 /* pwd2key.h in Headers */,
+				9BD1B1B9280F006DAF8F35CBFE060CAD /* sha1.h in Headers */,
+				91BE41F9425D6C45E462442400DF643A /* SSZipArchive-umbrella.h in Headers */,
+				7FFBBE536EDD320117F20962A16CAE82 /* SSZipArchive.h in Headers */,
+				233EBF2C045EC457AD2A6B8A4A46469D /* SSZipCommon.h in Headers */,
+				97688C928A1A27CD98635E47331BE4A8 /* unzip.h in Headers */,
+				702808B486666118707CEEF91B3FD9DF /* zip.h in Headers */,
+				CC0FBD673917F53DD9D24ECAF054EBFA /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92E6D78B5C447D6C23827945F966D4D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF66E09F12120AC3DFAB9FBE23FEBF27 /* LightWebJavaScriptMethod.h in Headers */,
+				1497EA79E6FF617D771906F4DF3AF768 /* LightWebAppController.h in Headers */,
+				4EDB8DE23A054458105559452C7655B6 /* LightWebAppFileItem.h in Headers */,
+				671D0D243CCF4901A807EA47AE174EA1 /* LightWebAppInfoItem.h in Headers */,
+				3F13EDDAE3A8C9D685FB38CE283DE00C /* LightWebCapsuleView.h in Headers */,
+				2333D8FCD696E80C3E8A3FD1843DAFAE /* LightWebCoreController.h in Headers */,
+				96D29B19A30C212EECD877C9918706D4 /* LightWebDismissAnimation.h in Headers */,
+				7731F534B89594428DB1E70973C5CA9E /* LightWebErrorView.h in Headers */,
+				73DD3DCEED0B0270BDEEEF79D2D742EB /* LightWebFileHelper.h in Headers */,
+				2B12084B807339FD023D23BB3A8FDFAD /* LightWebJavaScriptManager.h in Headers */,
+				9A7BEEB11A7A720186560A3F2A036B62 /* LightWebJsonHelper.h in Headers */,
+				2689AB25EF22FEC6135EE5C73382171A /* LightWebLoadHelper.h in Headers */,
+				E724643C24FE4DC40042BDDE /* LightWebRouterSystem.h in Headers */,
+				A0E095220EED4FEAA851B605E71B2AB2 /* LightWebLoadView.h in Headers */,
+				341B31149E9BB63DC42341B3B916E02D /* LightWebMainView.h in Headers */,
+				8970B2777F3B3C3778D3F3A48AD4D563 /* LightWebNavView.h in Headers */,
+				7D2AF1EDF99DF9B3FDD5297E4EF7B9E8 /* LightWebPageConfig.h in Headers */,
+				D84A6ADA5F4C3BEE808E0AE8561E02A3 /* LightWebPanInteractiveTransition.h in Headers */,
+				8EAA87D382826BC9D66286E4854C45B3 /* LightWebWKWebView.h in Headers */,
+				5486D6B33F1AA702B8DBFA01729F4FED /* NSString+LightWebCategory.h in Headers */,
+				BE4C033D161B62AD05B8C8139ED8A12D /* UIColor+LightWebCategory.h in Headers */,
+				0E19F58C46D6A53A938E31768A7A9924 /* UIImage+LightWebCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2295E186839D0D90544BCF8569993222 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBE18137F0662CCB037E447B9B10422 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				81CA0D4803F56F26802CFE440C9F8412 /* Headers */,
+				A59435F0D348C96EF9954D5C178E1581 /* Sources */,
+				C0C2C8AEA8B609660B9D66E2B016647F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 4AD992BF25D3A8734C56F4615EEF3E15 /* libSSZipArchive.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4707D60F06A3A949BFDD7D3E33D52EAA /* Pods-LightWebCoreExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF610259FFA93ACD84C84157CE7C7C1 /* Build configuration list for PBXNativeTarget "Pods-LightWebCoreExample" */;
+			buildPhases = (
+				6422ABEDA34D0039AA2D480BCF54AAFD /* Headers */,
+				06CB9BF18D549EEE5CF775E98DBA30AE /* Sources */,
+				F1AD6C3F96358687CD8A891D2E7044EF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F52114EAD8B293889363FC041E2D5BB9 /* PBXTargetDependency */,
+				C2EFA8FE58C17DEAD487CEE9D559D1E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LightWebCoreExample";
+			productName = "Pods-LightWebCoreExample";
+			productReference = 4498C4305D7CEAF9EF7A2241F4E96FD1 /* libPods-LightWebCoreExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5C19889F136E018F79BF2262E7AD3FA8 /* LightWebCore-LightWebCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D915486472E0819C0AC81470F8382ED /* Build configuration list for PBXNativeTarget "LightWebCore-LightWebCore" */;
+			buildPhases = (
+				724A3527694B3ADD625CEBF75552065B /* Sources */,
+				50CB43A4689991A97F440F16B8CF7272 /* Frameworks */,
+				F1A87AA42E8E5AF97463DE672CBC7AF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LightWebCore-LightWebCore";
+			productName = "LightWebCore-LightWebCore";
+			productReference = 24E1AA04E882A47621BF4977078BB1EE /* LightWebCore.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E45BBA13FF31C40BC3153396776EEE69 /* LightWebCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871BD7E9F0114F19F2708E2F17D63FF0 /* Build configuration list for PBXNativeTarget "LightWebCore" */;
+			buildPhases = (
+				B92E6D78B5C447D6C23827945F966D4D /* Headers */,
+				4409997C1B09DA692F29371DE5456DD3 /* Sources */,
+				CC93089E9306D6668FB60739690732DD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBA5EB851D3B0AA6D82662ED79A6179 /* PBXTargetDependency */,
+				EB33B175EB64EE9D09788D54141AD757 /* PBXTargetDependency */,
+			);
+			name = LightWebCore;
+			productName = LightWebCore;
+			productReference = 62953A09566741F8167F2631B91B3171 /* libLightWebCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A76875D286CFB37B24B1A219AAFEB582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E45BBA13FF31C40BC3153396776EEE69 /* LightWebCore */,
+				5C19889F136E018F79BF2262E7AD3FA8 /* LightWebCore-LightWebCore */,
+				4707D60F06A3A949BFDD7D3E33D52EAA /* Pods-LightWebCoreExample */,
+				2295E186839D0D90544BCF8569993222 /* SSZipArchive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1A87AA42E8E5AF97463DE672CBC7AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300593C3206D472DB55BB407B7075642 /* lightWebCore.xcassets in Resources */,
+				3D00F75CF648FEC18ACBD9FE439CE9E9 /* vconsole.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CB9BF18D549EEE5CF775E98DBA30AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E43BC820930CE8CDB9183CD29CF30F /* Pods-LightWebCoreExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4409997C1B09DA692F29371DE5456DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE45E8A3F4994DB9C6935C7EEA1FAB3 /* LightWebJavaScriptMethod.m in Sources */,
+				86A7EFF7302B8A859336CFFF236746B0 /* LightWebAppController.m in Sources */,
+				0F84F050FEA50788E2B0C8E5DDB8E41C /* LightWebAppFileItem.m in Sources */,
+				680078581A86D50ABC6982EBBC9B9B3B /* LightWebAppInfoItem.m in Sources */,
+				194DC2217E91792C5D0CD16792D07D88 /* LightWebCapsuleView.m in Sources */,
+				8F819D4189BA418D8F10CADF8FC5DBB8 /* LightWebCore-dummy.m in Sources */,
+				DD4A8A1E2BDD4FF4764FE9B4B4D66EA0 /* LightWebCoreController.m in Sources */,
+				E1954CF66C50D7B824A1F8C1A93996E9 /* LightWebDismissAnimation.m in Sources */,
+				C7C4F52D38810D97A2E6C7091882A9CB /* LightWebErrorView.m in Sources */,
+				D282CF2CBEC30AC4D762FBAC90000730 /* LightWebFileHelper.m in Sources */,
+				C38D2E1B219674549B42E2E57DA4E6E4 /* LightWebJavaScriptManager.m in Sources */,
+				AEA5E07F669A1661E4D3106C99FB95AC /* LightWebJsonHelper.m in Sources */,
+				E23CFF5826F5F7A713B1E76D2BAEB7AE /* LightWebLoadHelper.m in Sources */,
+				EF95DB08AC98BA3D010A84F2075486A2 /* LightWebLoadView.m in Sources */,
+				65CA17B269BEF5E0E2A35F41328128D6 /* LightWebMainView.m in Sources */,
+				A1761D0568DDF3E7796C652E627710F6 /* LightWebNavView.m in Sources */,
+				C9CD0595E8DD35A7383F6C605AF5E8AB /* LightWebPageConfig.m in Sources */,
+				26C7F3B1F61827DE7A3BD11496B4A017 /* LightWebPanInteractiveTransition.m in Sources */,
+				18FC26C535D5CB61211C4D84C6730AB6 /* LightWebWKWebView.m in Sources */,
+				9C3EF072671B0756D6D15DD289C95018 /* NSString+LightWebCategory.m in Sources */,
+				E724643D24FE4DC40042BDDE /* LightWebRouterSystem.m in Sources */,
+				E92D18B0A78423ECC472E2198E58EB03 /* UIColor+LightWebCategory.m in Sources */,
+				58A28B3667B5A41B0E82311E4030AAFC /* UIImage+LightWebCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724A3527694B3ADD625CEBF75552065B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A59435F0D348C96EF9954D5C178E1581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DCC70593898179AC29B403F266369A /* aes_ni.c in Sources */,
+				65C987E21AF8051AE3125038EEF2B7E2 /* aescrypt.c in Sources */,
+				A4EE893F48EDB041C0940287FF30E152 /* aeskey.c in Sources */,
+				1D5EB1C808B379A344A4C05724492730 /* aestab.c in Sources */,
+				AF02CCB57F7CDF926C0607DE872B575E /* crypt.c in Sources */,
+				8A15B99E2BD5FE5BE9192AD181E0C8DA /* fileenc.c in Sources */,
+				A857C327CF77A43DD992142E0B69528C /* hmac.c in Sources */,
+				E3EEBFDE6D740C97FCA32AD6CFB0D8AE /* ioapi.c in Sources */,
+				D7E172299A266ABE43A69503902353BC /* ioapi_buf.c in Sources */,
+				2CC3D549EA3D804840A04A01D42C7357 /* ioapi_mem.c in Sources */,
+				6FEDDD4B39AF2EA04FDE6ABB597AC6DE /* minishared.c in Sources */,
+				BD7E9EC1A34114DDC3F6FDC5466EE3B9 /* prng.c in Sources */,
+				BDA13EF83B1E808A3A5BB661DFE9F718 /* pwd2key.c in Sources */,
+				4893D64D020308AA243DBF8DC39CF116 /* sha1.c in Sources */,
+				505D34EED7A13F57EF975B67A37D48E8 /* SSZipArchive-dummy.m in Sources */,
+				157241514A6438FC7FBF01316D01DE78 /* SSZipArchive.m in Sources */,
+				390F5A27657938706E18C8D29A1D28E8 /* unzip.c in Sources */,
+				559B83924F27F0BB3E316E9D398A5314 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DBA5EB851D3B0AA6D82662ED79A6179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LightWebCore-LightWebCore";
+			target = 5C19889F136E018F79BF2262E7AD3FA8 /* LightWebCore-LightWebCore */;
+			targetProxy = 1746E0B3FC73F9465E5BEEE744D47E8D /* PBXContainerItemProxy */;
+		};
+		C2EFA8FE58C17DEAD487CEE9D559D1E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 2295E186839D0D90544BCF8569993222 /* SSZipArchive */;
+			targetProxy = 400D032C6E94862CBB1C1AB4C16D175E /* PBXContainerItemProxy */;
+		};
+		EB33B175EB64EE9D09788D54141AD757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 2295E186839D0D90544BCF8569993222 /* SSZipArchive */;
+			targetProxy = 8FB4825C6CFDF039E806CD734CC09ED9 /* PBXContainerItemProxy */;
+		};
+		F52114EAD8B293889363FC041E2D5BB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LightWebCore;
+			target = E45BBA13FF31C40BC3153396776EEE69 /* LightWebCore */;
+			targetProxy = B687D46FF7BD1A59798AE0CA33D365B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B3C4C63D7B32C7127E5135DD89DA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288CF036AF069F497F393BFE970BAA7A /* LightWebCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LightWebCore/LightWebCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LightWebCore;
+				PRODUCT_NAME = LightWebCore;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06675B6A0F7848313B5F3A585A1C9BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288CF036AF069F497F393BFE970BAA7A /* LightWebCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LightWebCore";
+				INFOPLIST_FILE = "Target Support Files/LightWebCore/ResourceBundle-LightWebCore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LightWebCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		09BCB3B0FAE62A61FC178E3B45CAA2B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288CF036AF069F497F393BFE970BAA7A /* LightWebCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LightWebCore";
+				INFOPLIST_FILE = "Target Support Files/LightWebCore/ResourceBundle-LightWebCore-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = LightWebCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0B67C5EFBB0DEDFDD2EBF3EC4B343E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88F77302F3C23F0BAFCE52423A0E482 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MODULEMAP_FILE = Headers/Public/SSZipArchive/SSZipArchive.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D175042D0DCB93CCA17E4F1BC76046F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288CF036AF069F497F393BFE970BAA7A /* LightWebCore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LightWebCore/LightWebCore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LightWebCore;
+				PRODUCT_NAME = LightWebCore;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C34E6C090711E75621C4F93F49C77CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4796E396AF712D228AE7F35B91132FE6 /* Pods-LightWebCoreExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B44CB2CC7C7A19CCEDA3106A10EDAEA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14807B9FEB4019433DCE1925887E877 /* Pods-LightWebCoreExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D119C19CF1D3D702BAE90C20756EF976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A88F77302F3C23F0BAFCE52423A0E482 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MODULEMAP_FILE = Headers/Public/SSZipArchive/SSZipArchive.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D915486472E0819C0AC81470F8382ED /* Build configuration list for PBXNativeTarget "LightWebCore-LightWebCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BCB3B0FAE62A61FC178E3B45CAA2B8 /* Debug */,
+				06675B6A0F7848313B5F3A585A1C9BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBE18137F0662CCB037E447B9B10422 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B67C5EFBB0DEDFDD2EBF3EC4B343E13 /* Debug */,
+				D119C19CF1D3D702BAE90C20756EF976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871BD7E9F0114F19F2708E2F17D63FF0 /* Build configuration list for PBXNativeTarget "LightWebCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B3C4C63D7B32C7127E5135DD89DA28 /* Debug */,
+				3D175042D0DCB93CCA17E4F1BC76046F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF610259FFA93ACD84C84157CE7C7C1 /* Build configuration list for PBXNativeTarget "Pods-LightWebCoreExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C34E6C090711E75621C4F93F49C77CE /* Debug */,
+				B44CB2CC7C7A19CCEDA3106A10EDAEA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,23 @@
+PODS:
+  - LightWebCore (0.1.0):
+    - SSZipArchive (~> 2.1.4)
+  - SSZipArchive (2.1.4)
+
+DEPENDENCIES:
+  - LightWebCore (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SSZipArchive
+
+EXTERNAL SOURCES:
+  LightWebCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LightWebCore: 4c1525c48cb87870a8ac403ee2cb863fbec8d4e4
+  SSZipArchive: 41455d4b8d2b6ab93990820b50dc697c2554a322
+
+PODFILE CHECKSUM: a40f933bf7acbbedab12a1bb42b7109769cf7464
+
+COCOAPODS: 1.5.3

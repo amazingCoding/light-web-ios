@@ -1,0 +1,34 @@
+{
+  "name": "LightWebCore",
+  "version": "0.1.0",
+  "summary": "a web app core.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sanyuelanv/LightWebCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sanyuelanv": "sanylanv@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sanyuelanv/LightWebCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LightWebCore/Classes/**/*",
+  "frameworks": "AudioToolbox",
+  "dependencies": {
+    "SSZipArchive": [
+      "~> 2.1.4"
+    ]
+  },
+  "resource_bundles": {
+    "LightWebCore": [
+      "LightWebCore/Assets/*.xcassets",
+      "LightWebCore/Assets/*.js"
+    ]
+  }
+}
